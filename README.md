@@ -85,6 +85,15 @@ The script processes data through several layers of refinement:
 - [ ] **Stage 2:** Global De-duplication (Across all shards).
 - [ ] **Stage 3:** Advanced Morphological analysis for sub-word tokenization.
 
+📊 Latest Pipeline Metrics
+The last execution processed over 22.9 Million records.
+
+Metric	Value
+Total Processed	22,920,135
+Pure Records Saved	6,807,356
+Elapsed Time	1241.46s (~20 mins)
+Files Processed	25
+
 ## 🎓 Acknowledgments
 This project is part of a Master's degree research focused on improving Malayalam representation in NLP. Special thanks to the open-source community for providing raw datasets like CC100.
 
