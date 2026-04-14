@@ -29,7 +29,7 @@ To replicate the cleaning process, follow these steps in order:
 
 ### 1. Data Acquisition
 The pipeline is optimized for the **CC-100 Malayalam** dataset.
-1. Download the `ml.txt.xz` file from the [CC-100 Repository](https://akarsh-p-v.github.io/CC-100-Dataset-Links/).
+1. Download the `ml.txt.xz` file from the [CC-100 Repository](https://autonlp.ai/datasets/cc100-malayalam).
 2. Extract the `.xz` file to obtain the raw `ml.txt`.
 
 ### 2. Pre-processing (Chunking)
