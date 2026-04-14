@@ -23,6 +23,21 @@ The pipeline introduces the **P-I-E Classification Standard**:
 -   **Unicode Normalization:** Enforces `NFC` normalization to ensure consistent character representation across the dataset.
 -   **Structured Metadata:** Generates a detailed execution log including processing time, record counts, and pipeline parameters.
 
+## 🛠 Setup & Workflow
+
+To replicate the cleaning process, follow these steps in order:
+
+### 1. Data Acquisition
+The pipeline is optimized for the **CC-100 Malayalam** dataset.
+1. Download the `ml.txt.xz` file from the [CC-100 Repository](https://akarsh-p-v.github.io/CC-100-Dataset-Links/).
+2. Extract the `.xz` file to obtain the raw `ml.txt`.
+
+### 2. Pre-processing (Chunking)
+Since the raw CC-100 file is massive, you must split it into manageable chunks before running the main cleaner.
+```bash
+# Split the file into chunks of 100,000 lines each
+split -l 100000 ml.txt chunk_ --additional-suffix=.txt
+
 ## 📁 Repository Structure
 
 ```text
